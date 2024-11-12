@@ -1,0 +1,195 @@
+/* Basic */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Colors and Body */
+
+body {
+    background: linear-gradient(0deg, #282424, #3a3737);
+    color: #E0FFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Banner */
+
+.banner {
+    text-align: left;
+    padding: 25px 25px;
+}
+
+.banner h1 {
+    font-size: 60px;
+    padding: 10px;
+}
+
+.banner p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.recommended {
+    color: #E0FFFF;
+    align-items: center;
+    padding: 25px 25px;
+}
+
+.recommended h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #E0FFFF;
+    margin-bottom: 25px;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.button {
+    background-color: #282424;
+    color: #e6e6e6;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #e6e6e6;
+    padding: 10px 10px;
+    margin: 5px 25px;
+    cursor: pointer;
+    transition: background-color 0.6s;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #3a3737;
+}
+
+.index-imgs {
+    display: table;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    margin: 25px 25px
+}
+
+.home-btn {
+    position: relative;
+    left: 0%;
+    top: 0%;
+    width: 100px;
+    height: 100px;
+}
+
+/* Lita's Podcast */
+
+.lita-podcast {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.lita-content {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+/* 3D */
+
+.three-d {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.three-d-content {
+    align-items: center;
+    padding: 25px 25px;
+}
+
+.three-d-imgs {
+    width: 500px;
+    height: auto;
+    padding: 25px 25px;
+}
+
+.three-d-text {
+    align-items: center;
+}
+
+/* Assets */
+
+.assets {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 25px 25px;
+    padding: 25px 25px;
+}
+
+.asset-imgs {
+    width: 500px;
+    height: auto;
+    padding: 25px 25px;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px 25px;
+}
+
+/* Responsive */
+
+/* Tablet */
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 2.5em;
+    }
+    .banner p {
+        font-size: 1em;
+    }
+
+    .three-d-imgs {
+        width: 100%;
+        height: auto;
+        padding: 25px 25px;
+    }
+
+    .asset-imgs {
+        width: 100%;
+        height: auto;
+        padding: 25px 25px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 375px) {
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .banner p {
+        font-size: 1em;
+    }
+
+    .three-d-imgs {
+        width: 100%;
+        height: auto;
+        padding: 25px 25px;
+    }
+    
+    .asset-imgs {
+        width: 100%;
+        height: auto;
+        padding: 25px 25px;
+    }
+}
